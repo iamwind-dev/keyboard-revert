@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/Minigame_SpeedKeyboard_W1_Optimized.unity
+    guid: 28c1ec6391da80c4b992a3c2793f3602
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/Minigame_SpeedKeyboard_W2_Optimized.unity
+    guid: ad498a6756f7e1c488b7582fba2e8cd3
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/Minigame_SpeedKeyboard_W3_Optimized.unity
+    guid: 5a7263cc2de29bf49952d6102cd48284
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/Home.unity
+    guid: 4c378b376f21dca48a370b0606d17269
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/MiniGame_ClimbCamoTower.unity
+    guid: 55ccae00aad21d8499ee3aa153dfc7bf
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/Minigame_ClimbMonsterTower.unity
+    guid: f6dfb52927cc3974193f504a055a142b
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/Minigame_ClimbSnakeTower.unity
+    guid: 0158a7bad05ff2143b18555f5ee70739
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/Minigame_PaintKeyboard.unity
+    guid: ac2db327ac416804bb20fb187e04c591
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/SpeedKeyboard_CryoPanther_Event.unity
+    guid: a322f97aabe379749935d221ccfccaa2
+  - enabled: 1
+    path: Assets/Recovered/_Game/Scenes/SpeedKeyboard_KingBlox_Event.unity
+    guid: dcd385086c28d4e4a974932dd8126349
+  - enabled: 1
+    path: Assets/Recovered/_Parkour3d/Scenes/MiniGame_EasyObby.unity
+    guid: b1fb2d01cf566d646ad826d66beb923d
+  - enabled: 1
+    path: Assets/Recovered/BounceSdk/BounceSdk/Scene/Splash.unity
+    guid: ff010fc4953ccc84bbbd3556664da189
+  - enabled: 1
+    path: Assets/GameplayWorld1/Scenes/Map1_World1_Gameplay.unity
+    guid: cc5ec21738ba5724dbdf263fe539ed7c
+  m_configObjects: {}

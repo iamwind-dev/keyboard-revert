@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e79f783df78a45a8a6d46fa4bb264f7a, type: 3}
+  m_Name: World1ShopCatalog
+  m_EditorClassIdentifier:
+  items:
+  - id: Trail_Green
+    title: "Green Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 10
+    multiplier: 1.5
+    frame: {fileID: 21300000, guid: 7edf81e4d9e42604a9954d72cbcf309a, type: 2}
+    icon: {fileID: 21300000, guid: b8207228523c83740b47287d106c85fa, type: 2}
+    effect: {fileID: 1709254077376921, guid: d81fe4c31b88c3d429de671c17c147f3, type: 2}
+  - id: Trail_Blue
+    title: "Blue Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 50
+    multiplier: 2
+    frame: {fileID: 21300000, guid: 692d8e6d7580de345876ac040bb4222e, type: 2}
+    icon: {fileID: 21300000, guid: b8aa6172c392318458f50b8f63a702f6, type: 2}
+    effect: {fileID: 1709254077376921, guid: 0e84c1c47aa31e94196df013447f877d, type: 2}
+  - id: Trail_Purple
+    title: "Purple Trail"
+    aura: 0
+    daily: 1
+    iap: 0
+    price: 500
+    multiplier: 3
+    frame: {fileID: 21300000, guid: 0e66abd1b64880741a946ffef670173c, type: 2}
+    icon: {fileID: 21300000, guid: 26dbaf95a873cd64cad74d7dc6c09f1c, type: 2}
+    effect: {fileID: 1709254077376921, guid: bb497c9c57a67974987c24adff6f4ce8, type: 2}
+  - id: Trail_Red
+    title: "Red Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 1700
+    multiplier: 4
+    frame: {fileID: 21300000, guid: 48043e2dd24e38444888dc477340fafe, type: 2}
+    icon: {fileID: 21300000, guid: 99be299bb3195794e81947f263f98f35, type: 2}
+    effect: {fileID: 1709254077376921, guid: 2016499424b17e248b23c316682e6017, type: 2}
+  - id: Trail_Rainbow
+    title: "Rainbow Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 8900
+    multiplier: 8
+    frame: {fileID: 21300000, guid: 131cb8ad8cc2b964c87380cfa013fb84, type: 2}
+    icon: {fileID: 21300000, guid: 63be5c94c202dd6419decc2c5b268088, type: 2}
+    effect: {fileID: 1709254077376921, guid: a465924a3902cc1439e5f88581b20089, type: 2}
+  - id: Trail_Ignite
+    title: "Wind Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 38000
+    multiplier: 16
+    frame: {fileID: 21300000, guid: abc1c1c49cb7eaf41b052883bd7f9502, type: 2}
+    icon: {fileID: 21300000, guid: 718709a8042192f44a9f11d2f280b26f, type: 2}
+    effect: {fileID: 1709254077376921, guid: 399d9c86a7585824099bf2ac3e0a1b53, type: 2}
+  - id: Trail_Wind
+    title: "Wind Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 38000
+    multiplier: 16
+    frame: {fileID: 21300000, guid: abc1c1c49cb7eaf41b052883bd7f9502, type: 2}
+    icon: {fileID: 21300000, guid: 718709a8042192f44a9f11d2f280b26f, type: 2}
+    effect: {fileID: 1709254077376921, guid: 823aee30e9d09b14b8acd6b25b66c80c, type: 2}
+  - id: Trail_Frost
+    title: "Frost Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 150000
+    multiplier: 64
+    frame: {fileID: 21300000, guid: 7065f674ef827194cbc64f7e3692c2fe, type: 2}
+    icon: {fileID: 21300000, guid: 1f483b16551073a48b14608fbf3bfbc2, type: 2}
+    effect: {fileID: 1709254077376921, guid: 303cf4829b5532941a48b4423504c920, type: 2}
+  - id: Trail_DarkMagic
+    title: "DarkMagic Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 300000
+    multiplier: 256
+    frame: {fileID: 21300000, guid: 14cdbfd592928b941a936a80967344fe, type: 2}
+    icon: {fileID: 21300000, guid: f957d4e5ef195ca4282d584860f23a63, type: 2}
+    effect: {fileID: 1709254077376921, guid: c22bf83b3ab94054696537e4037f44f7, type: 2}
+  - id: Trail_Light
+    title: "Light Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 700000
+    multiplier: 1028
+    frame: {fileID: 21300000, guid: 88c227a4639c2a343bb0b5a01ed0ce6e, type: 2}
+    icon: {fileID: 21300000, guid: 03b989fe31ff49b4fb47614630a13edc, type: 2}
+    effect: {fileID: 1709254077376921, guid: 6df0a2178ae68f9439c1cdc35d15f1c0, type: 2}
+  - id: Trail_TheFlash
+    title: "TheFlash Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 6100000
+    multiplier: 4096
+    frame: {fileID: 21300000, guid: 4de4068d33a2eac4bb0549c8113a451d, type: 2}
+    icon: {fileID: 21300000, guid: 03b989fe31ff49b4fb47614630a13edc, type: 2}
+    effect: {fileID: 1709254077376921, guid: 4244d8ee014092049bfb8f31fd9b60b0, type: 2}
+  - id: Trail_Infinity
+    title: "Infinity Trail"
+    aura: 0
+    daily: 0
+    iap: 1
+    price: 3000000
+    multiplier: 50000
+    frame: {fileID: 21300000, guid: 1c0e2277d03361d418ed9ac97c5af4e6, type: 2}
+    icon: {fileID: 21300000, guid: 8b0747698c48f3d4a87b0f25539103d7, type: 2}
+    effect: {fileID: 1709254077376921, guid: 26b291fb205f65f46bc40f860c267e0e, type: 2}
+  - id: Trail_Star
+    title: "Star Trail"
+    aura: 0
+    daily: 0
+    iap: 1
+    price: 50000000000
+    multiplier: 200000
+    frame: {fileID: 21300000, guid: 4de4068d33a2eac4bb0549c8113a451d, type: 2}
+    icon: {fileID: 21300000, guid: b260ce1473dd39c4ba3e66a62589470c, type: 2}
+    effect: {fileID: 1709254077376921, guid: 479d5484ce6bc5844994e37accd4bd7e, type: 2}
+  - id: Trail_Glit
+    title: "Glit Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 500000000000
+    multiplier: 400000
+    frame: {fileID: 21300000, guid: 1c0e2277d03361d418ed9ac97c5af4e6, type: 2}
+    icon: {fileID: 21300000, guid: 14c28c8007cb1014e87c4eae92862f4f, type: 2}
+    effect: {fileID: 1709254077376921, guid: 0bf0260db8da37143abf756dbff422ee, type: 2}
+  - id: Trail_Galaxy
+    title: "Galaxy Trail"
+    aura: 0
+    daily: 0
+    iap: 0
+    price: 50000000000000
+    multiplier: 1e+06
+    frame: {fileID: 21300000, guid: 14cdbfd592928b941a936a80967344fe, type: 2}
+    icon: {fileID: 21300000, guid: 18abefce054d7f24ea8a9f86df2b8823, type: 2}
+    effect: {fileID: 1709254077376921, guid: 39feeccd48355ec498261e24781dc7bb, type: 2}
+  - id: 1.Aura_Glow
+    title: "Glow Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 100
+    multiplier: 1.5
+    auraPreviewOffset: {x: 0, y: 0.75, z: 0}
+    frame: {fileID: 21300000, guid: 4c424325d4c666749bafb79ebb7a175b, type: 2}
+    icon: {fileID: 21300000, guid: c0a1474856d1ee34d90ca44b88026e5f, type: 2}
+    effect: {fileID: 1709254077376921, guid: 80f495645b342004e97058184a2a6364, type: 2}
+  - id: 2.Aura_Fire
+    title: "Fire Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 300
+    multiplier: 2
+    auraPreviewOffset: {x: 0, y: 0.75, z: 0}
+    frame: {fileID: 21300000, guid: 2bc8cab4451008947875ab45d2902e0d, type: 2}
+    icon: {fileID: 21300000, guid: be2a47354a327c0458786fcc2fea7ca3, type: 2}
+    effect: {fileID: 1709254077376921, guid: 9cc68ef69c518fd4b8ff5043d3b2adb3, type: 2}
+  - id: 3.Aura_Candy
+    title: "Candy Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 500
+    multiplier: 3
+    auraPreviewOffset: {x: 0, y: 0.75, z: 0}
+    frame: {fileID: 21300000, guid: 08acc7373b273ba4aac95354ebf02a3a, type: 2}
+    icon: {fileID: 21300000, guid: 3f90ad330af971948b48e4102239e468, type: 2}
+    effect: {fileID: 1709254077376921, guid: 9ca91a551deb9c446bfbbe0688e9b313, type: 2}
+  - id: 4.Aura_Chocolate
+    title: "Chocolate Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 10000
+    multiplier: 4
+    auraPreviewOffset: {x: 0, y: 0.75, z: 0}
+    frame: {fileID: 21300000, guid: c31e78e88f82d41498e817dbd93ce9b1, type: 2}
+    icon: {fileID: 21300000, guid: ace0e23be4935c3468aff6b6ebf3bdfa, type: 2}
+    effect: {fileID: 1709254077376921, guid: b12ba4acbbe12c048973c04fb3b01dec, type: 2}
+  - id: 5.Aura_Electric
+    title: "Electric Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 50000
+    multiplier: 5
+    auraPreviewOffset: {x: 0, y: 0.75, z: 0}
+    frame: {fileID: 21300000, guid: c6d8301803374504a841806b3fab09b7, type: 2}
+    icon: {fileID: 21300000, guid: 2393f55720adc0745b6bda57b1af3ab4, type: 2}
+    effect: {fileID: 1709254077376921, guid: a5cf6b9669eb68349bca25998376bace, type: 2}
+  - id: 6.Aura_Storm
+    title: "Storm Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 100000
+    multiplier: 6
+    auraPreviewOffset: {x: 0, y: 0.75, z: 0}
+    frame: {fileID: 21300000, guid: 0e10cb5a4072d7940a232aec250d652b, type: 2}
+    icon: {fileID: 21300000, guid: cbb7e3853e2340b44ad4c3fe3f2b7e94, type: 2}
+    effect: {fileID: 1709254077376921, guid: a206728aae28043428859731bc405bc7, type: 2}
+  - id: 7.Aura_Infinity
+    title: "Infinity Aura"
+    aura: 1
+    daily: 0
+    iap: 1
+    price: 1
+    multiplier: 1000
+    auraPreviewOffset: {x: 0, y: 0.75, z: 0}
+    frame: {fileID: 21300000, guid: 1c0e2277d03361d418ed9ac97c5af4e6, type: 2}
+    icon: {fileID: 21300000, guid: 527dceaf587e98047ae9cabd3837777b, type: 2}
+    effect: {fileID: 1709254077376921, guid: e18f142601334964ba1f1cbfac8921a8, type: 2}
+  - id: 8.Aura_Goku
+    title: "Goku Aura"
+    aura: 1
+    daily: 0
+    iap: 1
+    price: 1
+    multiplier: 10000
+    auraPreviewOffset: {x: 0, y: 0, z: 0}
+    frame: {fileID: 21300000, guid: 7065f674ef827194cbc64f7e3692c2fe, type: 2}
+    icon: {fileID: 21300000, guid: b2403eaa4a2e41a46a65f6b50204403e, type: 2}
+    effect: {fileID: 1709254077376921, guid: 607814770b98a374b9db22141c1ca570, type: 2}
+  - id: 9.Aura_Black
+    title: "Dark Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 100000000
+    multiplier: 8
+    auraPreviewOffset: {x: 0, y: 0, z: 0}
+    frame: {fileID: 21300000, guid: 1c0e2277d03361d418ed9ac97c5af4e6, type: 2}
+    icon: {fileID: 21300000, guid: 5a94653f477d72a49abb7c0aa8d5f803, type: 2}
+    effect: {fileID: 1709254077376921, guid: 9f684f07a81322e49b99c2b46d7d0ed5, type: 2}
+  - id: 10.Aura_Pink
+    title: "Pink Aura"
+    aura: 1
+    daily: 0
+    iap: 0
+    price: 500000000
+    multiplier: 12
+    auraPreviewOffset: {x: 0, y: 0, z: 0}
+    frame: {fileID: 21300000, guid: 14cdbfd592928b941a936a80967344fe, type: 2}
+    icon: {fileID: 21300000, guid: da9ab3de8f73f1546a67e5729af6a0d9, type: 2}
+    effect: {fileID: 1709254077376921, guid: 2f3fa7e4648351a44b32917ef30b5260, type: 2}
+  activeTab: {fileID: 21300000, guid: 3caf82966fd35ac41b55d4cd80c5c2b2, type: 2}
