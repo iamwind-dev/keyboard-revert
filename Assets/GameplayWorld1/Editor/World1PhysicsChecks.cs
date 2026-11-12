@@ -4,8 +4,32 @@ using UnityEngine;
 
 namespace KeyboardEscapeGameplay.Editor
 {
+    [InitializeOnLoad]
     public static class World1PhysicsChecks
     {
+        const string BatchRunning="World1PhysicsChecks.BatchRunning";
+        static World1PhysicsChecks()
+        {
+            EditorApplication.update+=()=>
+            {
+                if(!SessionState.GetBool(BatchRunning,false)||!Application.isPlaying)return;
+                var session=UnityEngine.Object.FindAnyObjectByType<World1Session>();
+                if(session==null||!session.Ready)return;
+                SessionState.SetBool(BatchRunning,false);
+                try { CheckPlayerMotion(); EditorApplication.Exit(0); }
+                catch(Exception error){Debug.LogException(error);EditorApplication.Exit(1);}
+            };
+        }
+
+        public static void RunBatch()
+        {
+            CheckBackend();
+            UnityEditor.SceneManagement.EditorSceneManager.OpenScene(World1SceneBuilder.ScenePath);
+            UnityEngine.Object.FindAnyObjectByType<World1Session>().persistProgress=false;
+            SessionState.SetBool(BatchRunning,true);
+            EditorApplication.EnterPlaymode();
+        }
+
         [MenuItem("Tools/Keyboard Escape/Check physics backend")]
         public static void CheckBackend()
         {
